@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>People List</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="../static/css/styles.css" />
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="personForm.html">Add Person</a></li>
+    </ul>
+</nav>
+
+<h1>People List</h1>
+
+<form action="index.html" method="get">
+    <label>
+        <span>Search:</span>
+        <input type="text" name="search" value="" />
+    </label>
+    <button>Search</button>
+</form>
+
+<p>Showing <span>4</span> people. Click on a header to sort.</p>
+
+<table>
+    <tr>
+        <th>
+            <a href="index.html" title="Sort by first name">First Name</a>
+        </th>
+        <th>
+            <a href="index.html" title="Sort by first name">Last Name</a>
+        </th>
+        <th>
+            Action
+        </th>
+    </tr>
+    <tr>
+        <td>Cosmo</td>
+        <td>Harper</td>
+        <td><a href="personForm.html">Edit</a></td>
+    </tr>
+    <tr>
+        <td>Raeburn</td>
+        <td>Dusty</td>
+        <td><a href="personForm.html">Edit</a></td>
+    </tr>
+    <tr>
+        <td>Cash</td>
+        <td>Blaze</td>
+        <td><a href="personForm.html">Edit</a></td>
+    </tr>
+    <tr>
+        <td>Kaiden</td>
+        <td>Dex</td>
+        <td><a href="personForm.html">Edit</a></td>
+    </tr>
+</table>
+
+</body>
+</html>

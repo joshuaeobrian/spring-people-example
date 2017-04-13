@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- todo: make this shown add or edit as appropriate -->
+    <title>Add/Edit Person</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="../static/css/styles.css" />
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="personForm.html">Add Person</a></li>
+    </ul>
+</nav>
+
+<!-- todo: make this shown add or edit as appropriate -->
+<h1>Add/Edit Person</h1>
+
+<p>Use the form below to <span>add/edit</span> a person.</p>
+
+<form action="index.html" method="post">
+    <label>
+        <span>Title:</span>
+        <input type="text" name="title" value="">
+    </label>
+
+    <label>
+        <span>First Name:</span>
+        <input type="text" name="firstName" value="" required>
+    </label>
+
+    <label>
+        <span>Middle Name:</span>
+        <input type="text" name="middleName" value="">
+    </label>
+
+    <label>
+        <span>List Name:</span>
+        <input type="text" name="lastName" value="" required>
+    </label>
+
+    <label>
+        <span>Suffix:</span>
+        <input type="text" name="suffix" value="">
+    </label>
+
+    <input type="hidden" name="personId" value="" />
+
+    <button>Save Person</button>
+</form>
+
+</body>
+</html>
